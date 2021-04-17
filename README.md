@@ -44,4 +44,14 @@
   - Internet computer provides APIs to make payments call out to other canisters, create or manage canisters, manage permissions and get the system time and for other actions.
   - When a canisters malfunction, it will not crashed instead its state is rolled back to what it was before the current message has started execution.
   - A canister is like a process that running on the internet computer's operating system.
-  -  
+
+## Development
+- DFX, a command line tool to interact with internet computer.
+- SDK, Software Development Kit to create projects, build the code part of your canister, send the canister up to the internet computer and interact with it.
+  - To install sdk, [Dfinity SDK](https://sdk.dfinity.org/docs/index.html)
+  - To setup linux command line for windows, [Click here, to Follow this official doc](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+  - Copy command and paste it in the linux terminal `sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"`
+  - To check the version by `dfx --version` and for help `dfx help`
+  - To create a new project run `dfx new project`
+  - To check with canister run `dfx canister --help`
+  - 
